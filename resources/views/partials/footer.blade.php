@@ -15,8 +15,10 @@
                                         BREEF (Bahamas Reef Environment Educational Foundation) is a registered Bahamian non-profit foundation based in New Providence, Bahamas.
                                     </p>
 
+                                    <!--
                                     <div class="logo-footer"><img id="logo-footer" src="/images/breef_logo.png" alt="" style="max-height: 2em;">
                                     </div>
+                                  -->
 
                                     <ul class="social-links circle animated-effect-1">
                                         <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>

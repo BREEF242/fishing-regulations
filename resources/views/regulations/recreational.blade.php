@@ -54,3 +54,23 @@
 
   </div>
 @stop
+
+
+@section('content')
+  <section class="pv-30 light-gray-bg clearfix">
+      <div class="container">
+
+           <h3 class="mt-4 text-center">Catch Limits &amp; <span class="text-default">Closed Seasons</span></h3>
+           <div class="separator"></div>
+
+
+
+
+      </div>
+  </section>
+
+
+
+  
+
+@stop

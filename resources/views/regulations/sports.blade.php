@@ -228,76 +228,111 @@
 
   @include('partials.warning_banner')
 
-
-  <section class="full-width-section">
-
-        <div class="full-text-container dark-bg border-bottom-clear">
-          <h2 class="mt-0">PROHIBITED FISHING GEAR AND METHODS</h2>
-          <div class="separator-2 hidden-lg-down"></div>
-          <p>Use of any of the following is <strong>prohibited</strong> in Bahamian waters:</p>
-
-          <ul class="list-icons">
-
-            <li><i class="icon-cancel text-danger"></i> Bleach or other noxious or poisonous substances</li>
-            <li><i class="icon-cancel text-danger"></i> Firearms or explosives</li>
-            <li><i class="icon-cancel text-danger"></i> Scuba gear spear guns.</li>
-          </ul>
-
-          <div class="separator-3 hidden-lg-down"></div>
-
-        </div>
-
-          <div class="full-text-container default-bg border-bottom-clear">
-            <h2 class="mt-5">GEAR RULES</h2>
-            <div class="separator-2 hidden-lg-down"></div>
-
-            <ul class="list-icons">
-              <li><i class="icon-check"></i> Angling with a hook or lure attached to a line held in the hand or attached to a pole, rod or reel only</li>
-              <li><i class="icon-check"></i> A maximum of 6 rods or reels allowed per vessel, unless special permit is obtained</li>
-              <li><i class="icon-check"></i> Using a spear that has a trigger, a fish trap, or a net other than a landing net is not allowed unless a special permit is acquired</li>
-              <li><i class="icon-check"></i> Spearfishing within one mile of New Providence or the southern coast of Grand Bahama and 200 yards of a family island.</li>
-            </ul>
+  <section class="light-gray-bg pv-30 padding-bottom-clear clearfix">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
 
 
-            <div class="separator-3 hidden-lg-down"></div>
+
+                <div class="pv-20 ph-20 feature-box-2 boxed shadow object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                  <span class="icon without-bg"><i class="fa fa-diamond text-muted"></i></span>
+                  <div class="body text-muted">
+                    <h4 class="title"><strong>GEAR RULES</strong></h4>
+                    <p>The following equipment rules apply in the Bahamas:</p>
+                    <div class="separator-2"></div>
+                    <ul class="list-icons">
+                      <li><i class="icon-check"></i> Angling with a hook or lure attached to a line held in the hand or attached to a pole, rod or reel only</li>
+                      <li><i class="icon-check"></i> A maximum of 6 rods or reels allowed per vessel, unless special permit is obtained</li>
+                      <li><i class="icon-check"></i> Using a spear that has a trigger, a fish trap, or a net other than a landing net is not allowed unless a special permit is acquired</li>
+                      <li><i class="icon-check"></i> Spearfishing within one mile of New Providence or the southern coast of Grand Bahama and 200 yards of a family island.</li>
+                    </ul>
+
+                  </div>
+                </div>
+
+
+
+              </div>
+
+              <div class="col-md-6">
+
+                <div class="pv-20 ph-20 feature-box-2 boxed shadow object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                  <span class="icon without-bg"><i class="fa fa-diamond text-muted"></i></span>
+                  <div class="body text-muted">
+                    <h4 class="title"><strong>PERMITS &amp; LICENSE</strong></h4>
+                    <p>A permit or license is required for::</p>
+                    <div class="separator-2"></div>
+                    <ul class="list-icons">
+                      <li><i class="icon-check"></i> Foreign vessels to engage in sport fishing.</li>
+                      <li><i class="icon-check"></i> To conduct foreign fishing for scientific or research purposes.</li>
+                    </ul>
+
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+
+
+            <div class="row">
+              <div class="col-md-6">
+
+
+                <div class="pv-20 ph-20 feature-box-2 boxed shadow object-non-visible left" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                  <span class="icon without-bg"><i class="fa fa-warning text-warning"></i></span>
+                  <div class="body text-warning">
+                    <h4 class="title text-white bg-warning" style="padding: 10px;"><strong>PROTECTED SPECIES</strong></h4>
+                    <p>The following species receive special protection in the Bahamas: </p>
+                    <div class="separator-3"></div>
+                    <ul class="list-icons text-warning">
+                      <li><i class="icon-cancel text-warning"></i> <strong>Marine mammals:</strong> capture or molestation is prohibited.</li>
+                      <li><i class="icon-cancel text-warning"></i> <strong>Corals:</strong> harvest is prohibited</li>
+                      <li><i class="icon-cancel text-warning"></i> <strong>Marine turtles:</strong> harvest, possession, purchase or sale of turtle, turtle parts and/or eggs and interfering with nests is prohibited.</li>
+                      <li><i class="icon-cancel text-warning"></i> <strong>Sharks:</strong> sale, import and export of sharks, shark parts and shark product is prohibited.</li>
+                    </ul>
+
+                  </div>
+                </div>
+
+
+
+
+              </div>
+
+              <div class="col-md-6">
+
+
+                <div class="pv-20 ph-20 feature-box-2 boxed shadow object-non-visible left" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                  <span class="icon without-bg"><i class="fa fa-ban text-danger"></i></span>
+                  <div class="body text-danger">
+                    <h4 class="title text-white bg-danger" style="padding: 10px;"><strong>PROHIBITED FISHING GEAR AND METHODS</strong></h4>
+                    <p>Use of any of the following is prohibited in Bahamian waters:</p>
+                    <div class="separator-3"></div>
+                    <ul class="list-icons text-danger">
+                      <li><i class="icon-cancel text-danger"></i> Bleach or other noxious or poisonous substances</li>
+                      <li><i class="icon-cancel text-danger"></i> Firearms or explosives</li>
+                      <li><i class="icon-cancel text-danger"></i> Scuba gear spear guns.</li>
+                    </ul>
+
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+
 
           </div>
-</section>
-
-<section class="full-width-section">
-  <div class="full-text-container default-bg border-bottom-clear">
-    <h2 class="mt-5">PERMITS & LICENSES</h2>
-    <div class="separator-2 hidden-lg-down"></div>
-    <p>A permit or license is required for:</p>
-
-    <ul class="list-icons">
-      <li><i class="icon-check"></i> Foreign vessels to engage in sport fishing.</li>
-      <li><i class="icon-check"></i> To conduct foreign fishing for scientific or research purposes.</li>
-    </ul>
+        </section>
 
 
-    <div class="separator-3 hidden-lg-down"></div>
 
-  </div>
-
-  <div class="full-text-container dark-bg border-bottom-clear">
-    <h2 class="mt-3">PROTECTED SPECIES</h2>
-    <div class="separator-2 hidden-lg-down"></div>
-
-    <ul class="list-icons">
-
-      <li><i class="icon-cancel text-danger"></i> <strong>Marine mammals:</strong> capture or molestation is prohibited.</li>
-      <li><i class="icon-cancel text-danger"></i> <strong>Corals:</strong> harvest is prohibited</li>
-      <li><i class="icon-cancel text-danger"></i> <strong>Marine turtles:</strong> harvest, possession, purchase or sale of turtle, turtle parts and/or eggs and interfering with nests is prohibited.</li>
-      <li><i class="icon-cancel text-danger"></i> <strong>Sharks:</strong> sale, import and export of sharks, shark parts and shark product is prohibited.</li>
-    </ul>
-
-    <div class="separator-3 hidden-lg-down"></div>
-
-  </div>
-
-
-</section>
+        @include('partials.gov_dept_banner')
 
 
 @stop
