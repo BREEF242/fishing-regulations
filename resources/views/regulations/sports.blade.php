@@ -107,7 +107,13 @@
 
                              </div>
                              <div class="body">
-                               <h3 class="margin-clear">Reef Fish</h3>
+                               <h3 class="margin-clear">Reef Fish
+                                 @if( isset($closed) && !$closed['grouper'] )
+                                   @include('partials.season_open')
+                                 @else
+                                   @include('partials.season_closed')
+                                 @endif
+                               </h3>
                                <small>(INCLUDING ROCKFISH, GROUPERS, SNAPPERS)</small>
 
                                <div class="separator mt-10"></div>
@@ -128,7 +134,14 @@
 
                              </div>
                              <div class="body">
-                               <h3 class="margin-clear">Stone Crab</h3>
+                               <h3 class="margin-clear">Stone Crab
+                                 @if( isset($closed) && !$closed['stonecrab'] )
+                                   @include('partials.season_open')
+                                 @else
+                                   @include('partials.season_closed')
+                                 @endif
+
+                               </h3>
                                <div class="separator mt-10"></div>
                                <ul class="list-icons text-left">
                                   <li><i class="icon-check"></i> Annual closed season: June 1 – October 15.</li>
@@ -179,13 +192,23 @@
 
                          <div class="col-md-6 col-lg-3">
                            <div class="team-member image-box style-2 mb-20 dark-bg text-center">
+
                              <div class="overlay-container overlay-visible">
-                               <img src="/images/crawfish.jpg" alt="">
+
+                                 <img src="/images/crawfish.jpg" alt="">
+
 
                              </div>
                              <div class="body">
-                               <h3 class="margin-clear">Crawfish (Spiny Lobster)</h3>
 
+                               <h3 class="margin-clear">
+                                 Crawfish (Spiny Lobster)
+                                 @if( isset($closed) && !$closed['crawfish'] )
+                                   @include('partials.season_open')
+                                 @else
+                                   @include('partials.season_closed')
+                                 @endif
+                               </h3>
                                <div class="separator mt-10"></div>
                                <ul class="list-icons text-left">
                                  <li><i class="icon-check"></i> Daily catch limit: no more than 10 crawfish per vessel at any time (not cumulative)</li>
