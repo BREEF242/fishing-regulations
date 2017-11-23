@@ -21,9 +21,9 @@
                         <ul class="list-inline">
                             <li class="list-inline-item"><a class="link-light" title="Contact the Bahamas Government" href="mailto:fisheries@bahamas.gov.bs"><i class="fa fa-envelope pr-1"></i>fisheries@bahamas.gov.bs</a>
                             </li>
-                            <li class="list-inline-item"><a class="link-light" title="Bahamas Fisheries Regulation PDF" target="_blank" href="https://breef.org/wp-content/uploads/2015/07/FisheriesResourcesJurisdictionandConservationRegulations_1.pdf"><i class="fa fa-flask pr-1"></i>Fisheries Regulations</a>
+                            <li class="list-inline-item"><a class="link-light" title="Bahamas Fisheries Regulation PDF" target="_blank" href="https://breef.org/wp-content/uploads/2015/07/FisheriesResourcesJurisdictionandConservationRegulations_1.pdf"><i class="fa fa-flask pr-1"></i>Regulations</a>
                             </li>
-                            <li class="list-inline-item"><a class="link-light" title="Bahamas Fisheries Law PDF" target="_blank" href="https://breef.org/wp-content/uploads/2015/07/FisheriesResourcesJurisdictionandConservationAct_1.pdf"><i class="fa fa-info-circle pr-1"></i>Fisheries Resources Act</a>
+                            <li class="list-inline-item"><a class="link-light" title="Bahamas Fisheries Law PDF" target="_blank" href="https://breef.org/wp-content/uploads/2015/07/FisheriesResourcesJurisdictionandConservationAct_1.pdf"><i class="fa fa-info-circle pr-1"></i>Law</a>
                             </li>
                             <li class="list-inline-item hidden-md-down"><strong class="pl-1">Call Us:</strong> <a title="Call BREEF for Bahamas fishing information" href="tel:+12423279000">+1 242 327 9000</a>
                             </li>

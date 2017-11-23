@@ -37,9 +37,10 @@
                                         </li>
                                     </ul>
                                     <ul class="list-icons">
-                                        <li><i class="fa fa-map-marker pr-10 text-default"></i> <address>
-                      P.O. Box CB-11005, <br />Unit #11, <br />Caves Professional Center,<br /> West Bay St. & Blake Road,<br /> New Providence,<br /> The Bahamas.
-                    </address>
+                                        <li><i class="fa fa-map-marker pr-10 text-default"></i>
+                                          <address>
+                                                P.O. Box CB-11005, <br />Unit #11, <br />Caves Professional Center,<br /> West Bay St. & Blake Road,<br /> New Providence,<br /> The Bahamas.
+                                          </address>
                                         </li>
                                         <li><i class="fa fa-phone pr-10 text-default"></i><a title="BREEF telephone number" href="tel:+12423279000">+1 242 327 9000</a>
                                         </li>
@@ -52,7 +53,8 @@
                                 <div class="col-lg-6">
                                     <h2 class="title">BREEF Office</h2>
                                     <br>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3614.0180932246603!2d-77.45418423536317!3d25.067375883956714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sCaves+Professional+Center%2C+Nassau!5e0!3m2!1sen!2sbs!4v1511101535300" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.010274781376!2d-77.45393518536324!3d25.067640883956575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x892f63c61ee94d27%3A0xc8d6da3552928fec!2sBahamas+Reef+Environmental+Educational+Foundation!5e0!3m2!1sen!2sbs!4v1511448931621" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+
                                 </div>
                             </div>
                         </div>

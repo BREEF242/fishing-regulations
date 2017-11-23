@@ -25,7 +25,7 @@
                       <li data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="">
 
                           <!-- main image -->
-                          <img src="images/slider_grouper.jpg" alt="slidebg1" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+                          <img src="{{cloudinary('c_scale,w_1600/v1511445488/backgrounds/QuenangelfishStuart_Cove_c_071')}}.png" alt="slidebg1" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
                           <!-- Transparent Background -->
                           <div class="tp-caption dark-translucent-bg" data-x="center" data-y="center" data-start="0" data-transform_idle="o:1;" data-transform_in="o:0;s:600;e:Power2.easeInOut;" data-transform_out="o:0;s:600;" data-width="5000" data-height="5000">
@@ -51,7 +51,7 @@
                       <li class="text-right" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="">
 
                           <!-- main image -->
-                          <img src="images/slider_fish_close.jpg" alt="slidebg2" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+                          <img src="{{cloudinary('c_scale,w_1600/v1511445524/backgrounds/hawksbillIMG_2225')}}.png" alt="slidebg2" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
                           <!-- Transparent Background -->
                           <div class="tp-caption dark-translucent-bg" data-x="center" data-y="center" data-start="0" data-transform_idle="o:1;" data-transform_in="o:0;s:600;e:Power2.easeInOut;" data-transform_out="o:0;s:600;" data-width="5000" data-height="5000">
@@ -91,21 +91,9 @@
 @section('content')
   <section class="pv-30 light-gray-bg clearfix">
       <div class="container">
-          <h3 class="title logo-font text-center text-default">According to the Fisheries Resources Act, “Fishery Resource(s)” means:</h3>
 
-          <blockquote class="text-center">Fish of any kind found in the sea (other than species of tuna, which in the course of their life cycle, spawn and migrate over great distances in waters of the ocean) and includes living organisms belonging to sedentary species, that is to say, organisms which, at the harvestable stage, either are immobile or under the seabed or are unable to move except in constant physical contact with the seabed or the subsoil of the continental shelf.</blockquote>
-          <br>
           <div class="row grid-space-10">
-              <div class="col-md-6 col-lg-3">
-                  <div class="pv-30 ph-20 white-bg feature-box bordered text-center">
-                      <span class="icon default-bg circle"><i class="fa fa-address-card"></i></span>
-                      <h3>Bahamian Residents</h3>
-                      <div class="separator clearfix"></div>
-                      <p>Information for citizens, annual residents, and permanent residents of the Bahamas.</p>
-                      <a href="/regulations/residents-citizens" class="btn btn-default btn-animated">Read More <i class="fa fa-angle-double-right"></i></a>
-                  </div>
-              </div>
-              <div class="col-md-6 col-lg-3">
+              <div class="col-md-6 col-lg-4">
                   <div class="pv-30 ph-20 white-bg feature-box bordered text-center">
                       <span class="icon default-bg circle"><i class="fa fa-trophy"></i></span>
                       <h3>Sports Fishing</h3>
@@ -114,7 +102,7 @@
                       <a href="/regulations/sports" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
                   </div>
               </div>
-              <div class="col-md-6 col-lg-3">
+              <div class="col-md-6 col-lg-4">
                   <div class="pv-30 ph-20 default-bg feature-box bordered text-center">
                       <span class="icon dark-bg circle"><i class="fa fa-hourglass-half"></i></span>
                       <h3>Recreational Fishing</h3>
@@ -123,7 +111,7 @@
                       <a href="/regulations/recreational" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
                   </div>
               </div>
-              <div class="col-md-6 col-lg-3">
+              <div class="col-md-6 col-lg-4">
                   <div class="pv-30 ph-20 white-bg feature-box bordered text-center">
                       <span class="icon default-bg circle"><i class="fa fa-money"></i></span>
                       <h3>Commercial Fishing</h3>
