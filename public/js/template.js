@@ -540,10 +540,10 @@
 		if ($('.owl-carousel').length>0) {
 			$("*[dir='ltr'] .owl-carousel.carousel").owlCarousel({
 				items:1,
-				dots: false,
+				dots: true,
 				nav: true,
 				loop: true,
-				navText: false,
+				navText: true,
 				responsive:{
 					479:{
 						items:2
@@ -562,10 +562,10 @@
 			$("*[dir='rtl'] .owl-carousel.carousel").owlCarousel({
 				items:1,
 				rtl: true,
-				dots: false,
+				dots: true,
 				nav: true,
-				loop: true,
-				navText: false,
+				loop: false,
+				navText: true,
 				responsive:{
 					479:{
 						items:2
@@ -681,7 +681,7 @@
 				autoplayTimeout: 5000,
 				autoplaySpeed: 700,
 				loop: true,
-				nav: false,
+				nav: true,
 				navText: false,
 				dots: false
 			});
@@ -692,7 +692,7 @@
 				autoplayTimeout: 5000,
 				autoplaySpeed: 700,
 				loop: true,
-				nav: false,
+				nav: true,
 				navText: false,
 				dots: false
 			});
@@ -798,7 +798,7 @@
 					nav: true,
 					autoplay: false,
 					dots: false,
-					loop: true,
+					loop: false,
 					responsiveRefreshRate : 200
 				}).on('changed.owl.carousel', syncPosition);
 
@@ -806,8 +806,8 @@
 					sync2.find(".owl-item").eq(0).addClass("current");
 				}).owlCarousel({
 					items : slidesPerPage,
-					dots: false,
-					nav: false,
+					dots: true,
+					nav:  true,
 					smartSpeed: 200,
 					slideSpeed : 500,
 					slideBy: slidesPerPage,
@@ -820,8 +820,8 @@
 					nav: true,
 					autoplay: false,
 					rtl: true,
-					dots: false,
-					loop: true,
+					dots: true,
+					loop: false,
 					responsiveRefreshRate : 200
 				}).on('changed.owl.carousel', syncPosition);
 
@@ -829,11 +829,12 @@
 					sync2.find(".owl-item").eq(0).addClass("current");
 				}).owlCarousel({
 					items : slidesPerPage,
-					dots: false,
-					nav: false,
+					dots: true,
+					nav: true,
 					rtl: true,
 					smartSpeed: 200,
 					slideSpeed : 500,
+					loop: false,
 					slideBy: slidesPerPage,
 					responsiveRefreshRate : 100
 				}).on('changed.owl.carousel', syncPosition2);

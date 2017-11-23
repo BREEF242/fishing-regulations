@@ -11,7 +11,7 @@
             <div class="col-md-4">
               <br>
               <p><a href="https://www.bahamas.gov.bs/marineresources" class="btn btn-lg btn-gray-transparent btn-animated text-center">
-                <img src="/images/bahamas_crown.png" style="max-width: 4em;">
+                <img src="{{cloudinary('c_scale,w_250/v1511446054/misc/bahamas_crown')}}.png" style="max-width: 4em;">
 
                 <i class="fa fa-arrow-right pl-20" style="margin-top: 1em;"></i>
               </a></p>

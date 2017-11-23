@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="author" content="AC" />
-<meta property="og:image" content="https://fishing.breef.org/thumbnail.jpg">
+<meta property="og:image" content="{{cloudinary('c_scale,h_313,w_600/v1511466319/misc/thumbnail')}}.png">
 <meta property="og:url" content="{{url('/')}}">
 <meta name="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="Bahamas Fishing Regulations presented by BREEF &amp; Bahamas Ministry of Tourism">

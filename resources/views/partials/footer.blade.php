@@ -21,19 +21,11 @@
                                   -->
 
                                     <ul class="social-links circle animated-effect-1">
-                                        <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                                        <li class="facebook"><a target="_blank" href="http://www.facebook.com/breef"><i class="fa fa-facebook"></i></a>
                                         </li>
-                                        <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                                        <li class="twitter"><a target="_blank" href="http://www.twitter.com/breef242"><i class="fa fa-twitter"></i></a>
                                         </li>
-                                        <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a>
-                                        </li>
-                                        <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
-                                        </li>
-                                        <li class="xing"><a target="_blank" href="http://www.xing.com"><i class="fa fa-xing"></i></a>
-                                        </li>
-                                        <li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a>
-                                        </li>
-                                        <li class="youtube"><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+                                        <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UC-_J4W55XDojRrdUnnCCJRQ"><i class="fa fa-youtube"></i></a>
                                         </li>
                                     </ul>
                                     <ul class="list-icons">

@@ -57,7 +57,7 @@
                                    <li class="nav-item dropdown {{isset($section) && $section == 'sports' ? 'active': ''}}">
                                       <a href="{{route('sports')}}" class="nav-link dropdown-toggle" id="sports-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick="location.href=this.href;">
                                         <span class="label nav-label text-primary">VISITORS</span>
-                                        <span class="nav-text clearfix">Sports Fishing</span>
+                                        <span class="nav-text clearfix">Sport Fishing</span>
                                         </a>
                                       <ul class="dropdown-menu" aria-labelledby="sports-dropdown">
                                         <li ><a title="Gear Rules & Methods" href="{{route('sports')}}#gear">Gear Rules &amp; Methods</a></li>

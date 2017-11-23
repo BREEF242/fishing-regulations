@@ -2,10 +2,10 @@
 
 @section('meta')
   <title>Bahamas Fishing Regulations presented by BREEF &amp; Bahamas Ministry of Tourism</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Rules &amp; Regulations for Sport, Recreational, and Commercial fishing in the Bahamas presented by BREEF &amp; Bahamas Ministry of Tourism.">
+  <meta name="keywords" content="Bahamas, Fishing, Regulations, Law, BREEF, Sport fishing, Recreational fishing, Commercial fishing">
   <meta property="og:title" content="Bahamas Fishing Regulations presented by BREEF &amp; Bahamas Ministry of Tourism">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="Rules &amp; Regulations for Sport, Recreational, and Commercial fishing in the Bahamas presented by BREEF &amp; Bahamas Ministry of Tourism."">
 @stop
 
 @section('banner')
@@ -75,6 +75,31 @@
                           </div>
 
                       </li>
+
+                      <li data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="">
+
+                          <!-- main image -->
+                          <img src="{{cloudinary('c_scale,w_1600/v1511445524/backgrounds/Softcoralseafan23_feb_2010__MG_2792')}}.png" alt="slidebg1" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+
+                          <!-- Transparent Background -->
+                          <div class="tp-caption dark-translucent-bg" data-x="center" data-y="center" data-start="0" data-transform_idle="o:1;" data-transform_in="o:0;s:600;e:Power2.easeInOut;" data-transform_out="o:0;s:600;" data-width="5000" data-height="5000">
+                          </div>
+
+                          <!-- LAYER NR. 1 -->
+                          <div class="tp-caption large_white" data-x="left" data-y="220" data-start="500" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1150;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Respect the boundaries.
+                          </div>
+
+                          <!-- LAYER NR. 2 -->
+                          <div class="tp-caption medium_white" data-x="left" data-y="290" data-start="750" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;s:850;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">The Bahamas has a network of Marine Protected Areas.
+                          </div>
+
+                          <!-- LAYER NR. 3 -->
+                          <div class="tp-caption small_white" data-x="left" data-y="410" data-start="1000" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="/regulations/citizens-residents" class="btn btn-dark btn-default btn-animated">Learn More <i class="fa fa-arrow-right"></i></a>
+                          </div>
+
+                      </li>
+
+
                       <!-- slide 2 end -->
                   </ul>
                   <div class="tp-bannertimer"></div>
@@ -96,9 +121,9 @@
               <div class="col-md-6 col-lg-4">
                   <div class="pv-30 ph-20 white-bg feature-box bordered text-center">
                       <span class="icon default-bg circle"><i class="fa fa-trophy"></i></span>
-                      <h3>Sports Fishing</h3>
+                      <h3>Sport Fishing</h3>
                       <div class="separator clearfix"></div>
-                      <p>Information for visitors to the Bahamas aiming to fish for pleasure or competition.</p>
+                      <p>Information for <strong>visitors</strong> to the Bahamas aiming to fish for pleasure or competition.</p>
                       <a href="/regulations/sports" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
                   </div>
               </div>
@@ -107,7 +132,7 @@
                       <span class="icon dark-bg circle"><i class="fa fa-hourglass-half"></i></span>
                       <h3>Recreational Fishing</h3>
                       <div class="separator clearfix"></div>
-                      <p>Information For both visitors and citizens/residents of the Bahamas fishing just for fun.</p>
+                      <p>Information for <strong>Bahamians &amp; permanent residents</strong> of The Bahamas fishing just for fun.</p>
                       <a href="/regulations/recreational" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
                   </div>
               </div>
@@ -116,7 +141,7 @@
                       <span class="icon default-bg circle"><i class="fa fa-money"></i></span>
                       <h3>Commercial Fishing</h3>
                       <div class="separator clearfix"></div>
-                      <p>Information For Bahamian residents engaged in fishing for financial gain.</p>
+                      <p>Information For Bahamian <strong>citizens</strong> engaged in fishing for financial gain.</p>
                       <a href="/regulations/commercial" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
                   </div>
               </div>
@@ -135,7 +160,7 @@
                       <div class="row">
                           <div class="col-md-8">
                               <h1 class="title">
-                <img src="images/fishrules_logo.png" style="max-width:200px;">
+                <img src="{{cloudinary('c_scale,w_200/v1511446069/misc/fishrules_logo')}}.png" style="max-width:200px;">
                 Have the rules on your phone</h1>
                               <ul class="list-inline">
                                   <li class="list-inline-item"><i class="icon-dot text-default"></i> <a target="_blank" href="https://fishrulesapp.com/" class="link-light">Grouper</a>
@@ -186,7 +211,7 @@
       <div class="container">
           <div class="row">
               <div class="col-lg-6">
-                  <img src="images/fishrules_screen.png" />
+                  <img src="{{cloudinary('c_scale,h_476,w_381/v1511446074/misc/fishrules_screen')}}.png" />
               </div>
               <div class="col-lg-6">
                   <h3>Fish regulations made easy</h3>
@@ -250,7 +275,7 @@
                               <h2 class="mt-4">Help us us protect the future</h2>
                           </div>
                           <div class="col-md-4">
-                              <p class="mt-3"><a href="https://breef.org/wp-content/uploads/2015/07/FisheriesResourcesJurisdictionandConservationRegulations_1.pdf" class="btn btn-animated btn-lg btn-gray-transparent">Download<i class="fa fa-file-pdf-o pl-20"></i></a>
+                              <p class="mt-3"><a href="https://breef.org/wp-content/uploads/2015/03/BREEF-FishRegPoster-18x24.pdf" class="btn btn-animated btn-lg btn-gray-transparent">Download<i class="fa fa-file-pdf-o pl-20"></i></a>
                               </p>
                           </div>
                       </div>

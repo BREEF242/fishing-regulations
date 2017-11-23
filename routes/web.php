@@ -20,7 +20,7 @@ $router->get('/', ['as'=>'home', function () use ($router, $closed) {
 
 $router->group(['prefix' => '/regulations'], function () use ($router, $closed) {
 
-  $router->get('sports', ['as' => 'sports', function () use ($router, $closed) {
+  $router->get('sport', ['as' => 'sports', function () use ($router, $closed) {
       return view('regulations.sports', ['section'=>'sports', 'closed' => $closed]);
   }]);
 
