@@ -5,7 +5,7 @@
   <meta name="description" content="Rules &amp; Regulations for Sport, Recreational, and Commercial fishing in the Bahamas presented by BREEF &amp; Bahamas Ministry of Tourism.">
   <meta name="keywords" content="Bahamas, Fishing, Regulations, Law, BREEF, Sport fishing, Recreational fishing, Commercial fishing">
   <meta property="og:title" content="Bahamas Fishing Regulations presented by BREEF &amp; Bahamas Ministry of Tourism">
-  <meta property="og:description" content="Rules &amp; Regulations for Sport, Recreational, and Commercial fishing in the Bahamas presented by BREEF &amp; Bahamas Ministry of Tourism."">
+  <meta property="og:description" content="Rules &amp; Regulations for Sport, Recreational, and Commercial fishing in the Bahamas presented by BREEF &amp; Bahamas Ministry of Tourism.">
 @stop
 
 @section('banner')
@@ -40,7 +40,7 @@
                           </div>
 
                           <!-- LAYER NR. 3 -->
-                          <div class="tp-caption small_white" data-x="left" data-y="410" data-start="1000" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="/regulations/citizens-residents" class="btn btn-dark btn-default btn-animated">Learn More <i class="fa fa-arrow-right"></i></a>
+                          <div class="tp-caption small_white" data-x="left" data-y="410" data-start="1000" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="{{route('sports')}}" class="btn btn-dark btn-default btn-animated">Learn More <i class="fa fa-arrow-right"></i></a>
                           </div>
 
                       </li>
@@ -71,7 +71,7 @@
                           </div>
 
                           <!-- LAYER NR. 4 -->
-                          <div class="tp-caption small_white" data-x="right" data-y="410" data-start="1000" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="/regulations/sports" class="btn btn-dark btn-default btn-animated">Learn More <i class="fa fa-arrow-right"></i></a>
+                          <div class="tp-caption small_white" data-x="right" data-y="410" data-start="1000" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="{{route('sports')}}" class="btn btn-dark btn-default btn-animated">Learn More <i class="fa fa-arrow-right"></i></a>
                           </div>
 
                       </li>
@@ -94,7 +94,7 @@
                           </div>
 
                           <!-- LAYER NR. 3 -->
-                          <div class="tp-caption small_white" data-x="left" data-y="410" data-start="1000" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="/regulations/citizens-residents" class="btn btn-dark btn-default btn-animated">Learn More <i class="fa fa-arrow-right"></i></a>
+                          <div class="tp-caption small_white" data-x="left" data-y="410" data-start="1000" data-transform_idle="o:1;" data-transform_in="y:[100%];sX:1;sY:1;o:0;s:600;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="{{route('commercial')}}" class="btn btn-dark btn-default btn-animated">Learn More <i class="fa fa-arrow-right"></i></a>
                           </div>
 
                       </li>
@@ -124,7 +124,7 @@
                       <h3>Sport Fishing</h3>
                       <div class="separator clearfix"></div>
                       <p>Information for <strong>visitors</strong> to the Bahamas aiming to fish for pleasure or competition.</p>
-                      <a href="/regulations/sports" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
+                      <a href="{{route('sports')}}" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4">
@@ -133,7 +133,7 @@
                       <h3>Recreational Fishing</h3>
                       <div class="separator clearfix"></div>
                       <p>Information for <strong>Bahamians &amp; permanent residents</strong> of The Bahamas fishing just for fun.</p>
-                      <a href="/regulations/recreational" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
+                      <a href="{{route('recreational')}}" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-4">
@@ -142,7 +142,7 @@
                       <h3>Commercial Fishing</h3>
                       <div class="separator clearfix"></div>
                       <p>Information For Bahamian <strong>citizens</strong> engaged in fishing for financial gain.</p>
-                      <a href="/regulations/commercial" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
+                      <a href="{{route('commercial')}}" class="btn btn-default btn-animated">Read More <i class="pl-1 fa fa-angle-double-right"></i></a>
                   </div>
               </div>
           </div>
