@@ -1,20 +1,14 @@
 @extends('layout.master')
 @section('meta')
   <title>Bahamas Sports Fishing Regulations presented by BREEF &amp; Bahamas Ministry of Tourism</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="Rules and regulations for sport fishing in the Bahamas presented by BREEF &amp; Bahamas Ministry of Tourism.">
+  <meta name="keywords" content="BREEF, Bahamas, sport fishing">
   <meta property="og:title" content="Bahamas Fishing Regulations presented by BREEF &amp; Bahamas Ministry of Tourism">
-  <meta property="og:description" content="">
+  <meta property="og:description" content="Rules and regulations for sport fishing in the Bahamas presented by BREEF &amp; Bahamas Ministry of Tourism.">
 @stop
 
 @section('banner')
-  <style>
-  .overlay-container img {
-    min-width: 100%;
-    min-height: 180px;
-    max-height: 180px;
-  }
-  </style>
+
   <div class="banner clearfix">
 
       <!-- slideshow start -->
@@ -109,9 +103,9 @@
                     <div class="overlay-bottom">
                       <ul class="social-links circle dark margin-clear">
                         @if( isset($closed) && !$closed['grouper'] )
-                          @include('partials.season_open', ['text'=>'Annual closed season: Nassau Grouper, Dec. 1 – Feb 28'])
+                          @include('partials.season_open', ['text'=>'Annual closed season: Nassau Grouper: <br /> Dec. 1 – Feb 28'])
                         @else
-                          @include('partials.season_closed', ['text'=>'Annual closed season: Nassau Grouper, Dec. 1 – Feb 28'])
+                          @include('partials.season_closed', ['text'=>'Annual closed season: Nassau Grouper: <br /> Dec. 1 – Feb 28'])
                         @endif
                       </ul>
                     </div>
@@ -137,9 +131,9 @@
                     <div class="overlay-bottom">
                       <ul class="social-links circle dark margin-clear">
                         @if( isset($closed) && !$closed['stonecrab'] )
-                          @include('partials.season_open', ['text'=>'Annual closed season: June 1 – October 15'])
+                          @include('partials.season_open', ['text'=>'Annual closed season: <br />June 1 – October 15'])
                         @else
-                          @include('partials.season_closed', ['text'=>'Annual closed season: June 1 – October 15'])
+                          @include('partials.season_closed', ['text'=>'Annual closed season: <br />June 1 – October 15'])
                         @endif
                       </ul>
                     </div>
@@ -206,9 +200,9 @@
                     <div class="overlay-bottom">
                       <ul class="social-links circle dark margin-clear">
                         @if( isset($closed) && !$closed['crawfish'] )
-                          @include('partials.season_open', ['text'=>'Annual closed season: April 1 – July 31'])
+                          @include('partials.season_open', ['text'=>'Annual closed season: <br />April 1 – July 31'])
                         @else
-                          @include('partials.season_closed', ['text'=>'Annual closed season: April 1 – July 31'])
+                          @include('partials.season_closed', ['text'=>'Annual closed season: <br />April 1 – July 31'])
                         @endif
                       </ul>
                     </div>

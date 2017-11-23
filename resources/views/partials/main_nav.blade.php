@@ -1,11 +1,3 @@
-<style>
-.label { border-radius: 0; text-shadow: none; font-size: 9px; font-weight: normal; padding: 0px; display: block;  font-weight: bold;}
-.label-default {  background-color: #2aa4a5; border-color: #248d8e;}
-.label-warning { background-color: #f89406!important }
-.nav-text { display: block;  }
-.nav-label { text-align: right; clear:right; }
-</style>
-
 
 <header class="header fixed fixed-desktop clearfix">
     <div class="container">
@@ -72,9 +64,8 @@
                                          <span class="label nav-label text-success">BAHAMIANS &amp; RESIDENTS</span>
                                          <span class="nav-text">Recreational Fishing</span></a>
                                        <ul class="dropdown-menu" aria-labelledby="recreational-dropdown">
-                                         <li ><a title="Gear Rules & Methods" href="{{route('recreational')}}#gear">Gear Rules &amp; Methods</a></li>
+                                         <li ><a title="Important Information" href="{{route('recreational')}}#important">Important Information</a></li>
                                          <li ><a title="Protected Species" href="{{route('recreational')}}#protected">Protected Species</a></li>
-                                         <li ><a title="Permits &amp; Licenses" href="{{route('recreational')}}#permits">Permits &amp; Licenses</a></li>
                                          <li ><a title="Catch Limits &amp; Closed Seasons" href="{{route('recreational')}}#limits">Catch Limits &amp; Closed Seasons</a></li>
                                        </ul>
                                      </li>
@@ -86,9 +77,7 @@
 
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="commercial-dropdown">
-                                          <li ><a title="Gear Rules & Methods" href="{{route('commercial')}}#gear">Gear Rules &amp; Methods</a></li>
                                           <li ><a title="Protected Species" href="{{route('commercial')}}#protected">Protected Species</a></li>
-                                          <li ><a title="Permits &amp; Licenses" href="{{route('commercial')}}#permits">Permits &amp; Licenses</a></li>
                                           <li ><a title="Catch Limits &amp; Closed Seasons" href="{{route('commercial')}}#limits">Catch Limits &amp; Closed Seasons</a></li>
                                         </ul>
                                       </li>

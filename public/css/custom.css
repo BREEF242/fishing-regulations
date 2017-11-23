@@ -1,9 +1,15 @@
-/* Theme Name: The Project - Responsive Website Template
-Author:HtmlCoder
-Author URI:http://www.htmlcoder.me
-Author e-mail:htmlcoder.me@gmail.com
-Version: 2.0.5
-Created:December 2014
-License URI:http://support.wrapbootstrap.com/
-File Description: Place here your custom CSS styles
-*/
+.season-badge {
+  display: inline-block; font-weight: normal; font-size: 8px; line-height: 8px;
+}
+
+.overlay-container img {
+  min-width: 100%;
+  min-height: 180px;
+  max-height: 180px;
+}
+
+.label { border-radius: 0; text-shadow: none; font-size: 9px; font-weight: normal; padding: 0px; display: block;  font-weight: bold;}
+.label-default {  background-color: #2aa4a5; border-color: #248d8e;}
+.label-warning { background-color: #f89406!important }
+.nav-text { display: block;  }
+.nav-label { text-align: right; clear:right; }
