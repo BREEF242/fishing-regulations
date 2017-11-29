@@ -22,7 +22,7 @@
                     <li data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="">
 
                         <!-- main image -->
-                        <img src="/images/slider_shoal.jpg" alt="slidebg1" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+                        <img src="{{cloudinary('c_scale,w_1600/v1511994066/backgrounds/slider_shoal')}}.png" alt="slidebg1" data-bgposition="center top" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
                         <!-- Transparent Background -->
                         <div class="tp-caption dark-translucent-bg" data-x="center" data-y="center" data-start="0" data-transform_idle="o:1;" data-transform_in="o:0;s:600;e:Power2.easeInOut;" data-transform_out="o:0;s:600;" data-width="5000" data-height="5000">

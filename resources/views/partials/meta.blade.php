@@ -8,7 +8,7 @@
 <meta property="fb:app_id" content="your_app_id" />
 <meta name="twitter:site" content="@breef242">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="shortcut icon" href="/images/favicon.ico">
+<link rel="shortcut icon" href="{{cloudinary('misc/favicon')}}.ico">
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
